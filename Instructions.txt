@@ -1,0 +1,11 @@
+1. python -m venv venv           --> create a virtual env inside working directory
+2. venv\Scripts\activate.bat     --> activate virtual env and to turn of just use deactivate
+
+
+------------ Structure ------------
+
+1. problem_name.py file that has a function to solve a problem. 
+1. Helper function has also main function that is only called if running helpper file. Main will ont run if importing that file. Useful to test helpper function.
+2. main.py file that import function from other fiels and call inside main
+2. In main.py file commad line arguments are stored in sys.argv as list. 
+
