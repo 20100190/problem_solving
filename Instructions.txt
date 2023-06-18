@@ -9,3 +9,11 @@
 2. main.py file that import function from other fiels and call inside main
 2. In main.py file commad line arguments are stored in sys.argv as list. 
 
+
+------------ git ------------
+1. git init
+1. create a .gitignore file and add folder/file that do not need to be versioned. i.e venv/
+2. git commit -m "what's change"
+3. git branch -M main    --> to rename current branch 
+4. git add remote add origin url 
+5. git push -u origin main 
